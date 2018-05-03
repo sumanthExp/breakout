@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Breakout</title>
+
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+
+</head>
+
+<body>
+
+        <div class="container">
+            <h1>
+            Welcome to Breakout
+            </h1>
+            <h2>Login to play</h2>
+               <form action="/login" method="POST">
+          <div class="form-group">
+            <label form="username">Username</label>
+            <input type="text" class="form-control" name="username" id="username"  placeholder="username" required="true">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required="true">
+          </div>
+         
+          <button class="btn btn-primary" >Login</button>
+        </form>        
+
+<h1>----------------------------------------------------------------------------------</h1>
+        
+        </div>
+        <div class="container">
+           
+            <h2>Create New Player</h2>
+               <form action="/create" method="POST">
+          <div class="form-group">
+            <label for="pfname">First Name</label>
+            <input type="text" class="form-control" name="FirstName" id="fname"  placeholder="John" required="true">
+          </div>
+          <div class="form-group">
+            <label for="lname">Last Name</label>
+            <input type="text" class="form-control" name="LastName" id="lname"  placeholder="Smith" required="true">
+          </div>
+          <div class="form-group">
+            <label for="pfname">Username</label>
+            <input type="text" class="form-control" name="username" id="username"  placeholder="xyz" required="true">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password" required="true">
+          </div>
+          <div class="form-group">
+            <label for="pemailid">Email ID</label>
+
+            <input type="email" class="form-control" name="emailid" id="emailid" aria-describedby="emailHelp" placeholder="john.smith@domain.com" required="true">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone. Else we don't deserve you</small>
+          </div>
+         
+          <button class="btn btn-primary" >Sign Up</button>
+
+        </form>   
+      </div>
+  
+
+</body>
+
+
+</html>

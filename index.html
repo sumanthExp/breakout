@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Breakout</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="format-detection" content="telephone=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #d3d3d3;
+            overflow: hidden;
+        }
+    </style>
+
+</head>
+
+<body>
+
+  <center> </center><button type="button" class="btn btn-primary" data-toggle="modal"  data-target="#exampleModalCenter">Game Play</button> </center>
+  </center>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"  id="exampleModalCenter">
+
+    <div class="modal-dialog modal-dialog-centered" role="document">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">×</button>
+          <h4 class="modal-title"><i class="fa fa-exclamation-circle"></i>Game Play</h4>
+        </div>
+        <div class="modal-body">
+          <center>Single Player</center><br>
+         Left Mouse Click - Release ballLos <br>
+          &larr;(Left Arrow) To Move Paddle left <br>
+        &rarr;(Right Arrow) To Move Paddle right <br><br>
+
+         <center>Simultaneous Player :</center> <br>
+         &rarr;(Right Arrow) To Move Paddle right <br>
+          &larr;(Left Arrow) To Move Paddle left <br>
+         'a' - To Move Left Second Player <br>
+         'd' - To Move Right Seconf Player <br>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<button  href="http://localhost:3001" type="button" class="btn btn-primary" >Home</button>
+
+<div id="data"></div>
+
+
+
+
+
+    <div id="content"></div>
+
+
+
+
+<script type="text/javascript" src="./dist/vendor.bundle.js"></script><script type="text/javascript" src="./dist/bundle.js"></script>
+
+
+
+
+</body>
+
+
+
+</html>

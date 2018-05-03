@@ -1,0 +1,79 @@
+body{
+    background-color: #D3D3D3;
+    height: 100vh;
+    #background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.login_page{
+    width: 50%;
+    float: left;
+}
+
+.form{
+    
+    background-color: #D3D3D3;
+    max-width: 100%;
+    margin: 10% 20% 50px;
+    padding: 10px;
+    text-align: left;
+}
+
+.form input{
+    font-family: serif, sans-serif;
+    outline: 0;
+    background: #FFFAFA;
+    width: 100%;
+    border: 1;
+    margin: 0 0 13px;
+    padding: 13px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form button {
+    font-family: serif, sans-serif;
+    font-size: 20px;    
+    text-transform: capitalize;
+    outline: 0;
+   background-color: rgba(5,20,10,0.30);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.form button:hover, .form button:active{
+    color: antiquewhite;
+    
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: aliceblue;
+    font-size: 13px;
+} 
+
+.form .message a{
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+
+.form .register_form{
+    display: none;
+    
+}
+
+.create{
+    
+    width: 360px;
+    padding: 0% 0 0;
+    float: left;
+
+
+
+
+}

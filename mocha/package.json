@@ -1,0 +1,19 @@
+{
+  "name": "mocha_ganesh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "mysql": "^2.15.0"
+  }
+}
